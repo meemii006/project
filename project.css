@@ -1,0 +1,82 @@
+html,
+body {
+  position:relative;
+  height: 100%;
+  margin: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+/*im not using
+.bg-img {
+  background-image: url(lake.jpg);
+  background-position: center;
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  overflow: hidden;
+  transform: scale(1.1);
+  background-attachment: fixed;
+  background-size: cover;
+}*/
+.container {
+  top: 10%;
+  position: relative;
+  height: 500px;
+  max-width: 370px;
+  padding: 6px 20px;
+  background-color: rgba(240, 234, 234, 0.219);
+  margin: auto;
+  margin-top: 5%;
+  background-position: fixed;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow:0 8px 8px 0  rgba(10, 10, 10, 0.795),0 6px 20px 0 rgb(10, 10, 10,0.795);
+}
+::placeholder {
+  color: #000000a9;
+  font-weight: 600;
+  opacity: 1;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding:  12px;
+  border-radius: 6px;
+  border: 1px solid rgb(3, 3, 3);
+  margin: 7px 0 3px 0;
+  box-shadow: 3px 1px 10px  #493d3d94;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,input[type="password"]:focus{
+  background-color: rgba(95, 85, 85, 0.055);
+}
+input[type="checkbox"] {
+  accent-color: #506fc5dc;
+  cursor: pointer;
+  transform: scale(1.5);
+  
+}
+
+.button {
+  background-color: rgba(21, 141, 10, 0.877);
+  border: none;
+  border-radius: 9px;
+  padding: 12px;
+  width: 100%;
+  margin: 32px 0;
+  font-size: large;
+  color: rgb(245, 231, 231);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgba(31, 148, 41, 0.719);
+}
